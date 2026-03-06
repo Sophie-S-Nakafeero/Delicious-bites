@@ -10,6 +10,12 @@ header h1{
     margin: 0px;
     color: white;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 nav ul{
     list-style: none;
     display: flex;
@@ -27,7 +33,8 @@ button{
     border-radius: 4px;
     height: 45px;
     cursor: pointer;
-    margin-left: 900px;
+    display: block;
+    margin: auto;
     font-weight: bold;
 }
 h2{
@@ -35,4 +42,27 @@ h2{
 }
 h3{
     text-align: center;
+}
+.menu-container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+.Menu-section{
+    width: 300px;
+}
+.hero{
+    background-image:url(steak\ 1.webp) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 60px 20px;
+}
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6), url('steak\ 1.webp'));
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
 }
